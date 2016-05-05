@@ -5,3 +5,7 @@ color:grey;}
 
 
 h1{color:blue;}
+
+#footer{position:absolute;
+        bottom:0;
+        width:100%}
