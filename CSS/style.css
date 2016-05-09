@@ -1,11 +1,32 @@
 
 
-a{font-size:20px;
-color:grey;}
+.menu{font-size:20px;
+color:black;}
 
+.container{border: 1px solid black;}
+
+.row{border: 1px solid black;}
 
 h1{color:blue;}
+h2{color:green;font-size:5px;}
+
+
+
+.spectacles{border:3px;
+}
+.salle{font-color:pink;border:3px;
+}
+.date{font-color:green;border:3px;
+}
 
 #footer{position:absolute;
         bottom:0;
         width:100%}
+
+
+#img-spectacle{  width: 60%;
+  			 }
+
+
+#centrer-spectacle{ 
+  			 text-align: center;}
