@@ -3,21 +3,15 @@
 .menu{font-size:20px;
 color:black;}
 
-.container{border: 1px solid black;}
+.container{border: 1px solid black;
+}
 
 .row{border: 1px solid black;}
 
-h1{color:blue;}
-h2{color:green;font-size:5px;}
 
 
 
-.spectacles{border:3px;
-}
-.salle{font-color:pink;border:3px;
-}
-.date{font-color:green;border:3px;
-}
+
 
 #footer{position:absolute;
         bottom:0;
@@ -28,5 +22,32 @@ h2{color:green;font-size:5px;}
   			 }
 
 
-#centrer-spectacle{ 
-  			 text-align: center;}
+#contenu{ 
+  			 text-align: center;
+  			 background-color: grey;
+  		}
+
+.header{background-image:url(../images/cle.jpg);}
+
+#barremenu a{color:black;font-size:20px;}
+
+#menu_fixe_droite{background-color: pink;}
+
+#menu_dates{
+	border:3px;
+	background-color: grey;
+}
+
+#menu_dates h1{
+	font-size:20px;
+	background-color: black;
+	color:white;
+}
+#menu_dates h2{font-size: 15px;}
+#menu_dates a{font-size:15px;}
+
+#menu_facebook{
+	border:3px;
+	background-color: grey;
+
+}
