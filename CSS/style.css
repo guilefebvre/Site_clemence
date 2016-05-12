@@ -18,25 +18,21 @@ color:black;}
         width:100%}
 
 
-<<<<<<< HEAD
-#img-spectacle{  width: 70%;
-  			 }
 
-
-#contenu{
-=======
 #img-spectacle{  width: 500px;
   			 }
 
 
+
+
+
 .contenu{
->>>>>>> origin/gh-pages
+
   			 text-align: center;
   			 background-color: grey;
   		}
 
-<<<<<<< HEAD
-=======
+
 #titre-contenu{
          margin-top:10px;
         font-size:20px;
@@ -45,7 +41,7 @@ color:black;}
 
 }
 
->>>>>>> origin/gh-pages
+
 .header{background-image:url(../images/cle.jpg);}
 
 #barremenu a{color:black;font-size:20px;}
@@ -53,13 +49,13 @@ color:black;}
 #menu_fixe_droite{
   background-color: pink;
   width:300px;
-<<<<<<< HEAD
+
 margin-top:30px;
-=======
+
 margin-top:100px;
 padding-left:15px;
 padding-right:15px;
->>>>>>> origin/gh-pages
+
 }
 
 #menu_dates{
@@ -83,8 +79,7 @@ padding-right:15px;
 	background-color: grey;
 
 }
-<<<<<<< HEAD
-=======
+
 
 
 /*portfolio area*/
@@ -111,7 +106,7 @@ padding-right:15px;
   padding: 0;
   position: relative;
   border: 1px solid black;
-  
+
 }
 .single-portfolio i.fa {
   position: absolute;
@@ -131,7 +126,7 @@ padding-right:15px;
 .portfolio-item{
   position: relative;
 
-  border: 1px solid black;  
+  border: 1px solid black;
   z-index: 10;
 
   margin: 0;
@@ -152,7 +147,7 @@ padding-right:15px;
 }
 .portfolio-item img{
    margin: 0;
-  padding: 0; 
+  padding: 0;
   width: 100%;
   height: 100%;
 }
@@ -166,9 +161,7 @@ padding-right:15px;
   font-size: 12px;
   color: #fff;
   padding: 5px 20px;
-  
+
 }
 
 
-/
->>>>>>> origin/gh-pages
