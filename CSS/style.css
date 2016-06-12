@@ -102,7 +102,7 @@ font-weight: bold;
 #menu_fixe_droite{
 
 border-left: 1px solid black;
-  width:340px;
+  width:310px;
 
 
 margin-top:50px;
@@ -157,7 +157,7 @@ padding-right:15px;
 
 .img_formulaire img{
    margin-top:40px;
-   margin-left:15px;
+
   width:100px;
   border-radius:50%;
 
@@ -165,6 +165,7 @@ padding-right:15px;
 }
 #formulaire{
   margin-top:40px;
+
 }
 
 #bloc_commentaires{
