@@ -25,6 +25,20 @@ color:black;}
 
 .row{}
 
+#zone_portrait{
+  padding-top:30px;
+}
+#portrait_clemence{
+width:100%;
+
+
+}
+
+#description_portrait h3{
+color:green;
+
+}
+
 
 .photos{
 
@@ -122,7 +136,24 @@ padding-right:15px;
   text-align: left;
 }
 
+#formulaire{
+  padding-top:3vh;
+  width:60vh;
+  text-align:center;
+}
+.img_formulaire{
+  text-align:center;
+  padding-top: 30px;
+}
+
+.img_formulaire img{
+  width:100px;
+  border-radius:50%;
 
 
+}
 
+#bloc_commentaires{
+
+}
 
