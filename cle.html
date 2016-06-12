@@ -7,9 +7,14 @@
 
     <title>CLEMENCE DE VILLENEUVE</title>
 
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="JS/gallerie.js"></script>
+     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_gallerie.css">
 
 
 
@@ -60,113 +65,54 @@
 
  <!-- portfolio section -->
 
-      <section class="portfolio text-center" >
-        <div class="row portfolio-row">
-          <div class="portfolio-heading">
-            <h2>Mes photos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br><br>
-            ut labore et dolore magna aliqua.</p>
+      <div class="photos">
+
+        <ul class="row">
+            <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/cle.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/portfolio.jpg">
+            </li>
+           <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/portfolio2.jpg">
+            </li>
+           <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/portfolio3.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/portfolio4.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/portfolio5.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/portfolio6.jpg">
+            </li>
+           <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/portfolio7.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/portfolio8.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <img class="img-responsive" src="images/affiche.jpg">
+            </li>
+
+          </ul>
+    </div> <!-- /photos -->
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
           </div>
-
-          <div class="col-md-4 single-portfolio col-sm-6">
-            <figure class="portfolio-item">
-              <img class="img-responsive" src="images/portfolio.jpg" alt="">
-              <figcaption class="portfolio-details">
-                <h4>Mes lunettes</h4>
-                <p>Ce sont mes lunettes préférée, je les portes tout l'été !!</p>
-              </figcaption>
-               </figure>
-
-            <a href="images/portfolio.jpg"  title="Agrandir"><i class="fa fa-search"></i></a>
-
-          </div>
-
-          <div class="col-md-4 single-portfolio col-sm-6">
-            <figure class="portfolio-item">
-              <img class="img-responsive" src="images/portfolio2.jpg" alt="">
-              <figcaption class="portfolio-details">
-                <h4>Title goes here</h4>
-                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
-                et dolorerserss eerhfre mag.</p>
-              </figcaption>
-            </figure>
-            <a href="images/portfolio2.jpg"><i class="fa fa-search"></i></a>
-          </div>
-
-          <div class="col-md-4 single-portfolio col-sm-6">
-            <figure class="portfolio-item">
-              <img class="img-responsive" src="images/portfolio3.jpg" alt="">
-              <figcaption class="portfolio-details">
-                <h4>Title goes here</h4>
-                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
-                et dolorerserss eerhfre mag.</p>
-              </figcaption>
-            </figure>
-            <a href="images/portfolio3.jpg"><i class="fa fa-search"></i></a>
-          </div>
-
-          <div class="col-md-4 single-portfolio col-sm-6">
-            <figure class="portfolio-item">
-              <img class="img-responsive" src="images/portfolio4.jpg" alt="">
-              <figcaption class="portfolio-details">
-                <h4>Title goes here</h4>
-                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
-                et dolorerserss eerhfre mag.</p>
-              </figcaption>
-            </figure>
-            <a href="images/portfolio4.jpg"><i class="fa fa-search"></i></a>
-          </div>
-
-          <div class="col-md-4 single-portfolio col-sm-6">
-            <figure class="portfolio-item">
-              <img class="img-responsive" src="images/portfolio5.jpg" alt="">
-              <figcaption class="portfolio-details">
-                <h4>Title goes here</h4>
-                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
-                et dolorerserss eerhfre mag.</p>
-              </figcaption>
-            </figure>
-            <a href="images/portfolio5.jpg"><i class="fa fa-search"></i></a>
-          </div>
-
-          <div class="col-md-4 single-portfolio col-sm-6">
-            <figure class="portfolio-item">
-              <img class="img-responsive" src="images/portfolio6.jpg" alt="">
-              <figcaption class="portfolio-details">
-                <h4>Title goes here</h4>
-                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
-                et dolorerserss eerhfre mag.</p>
-              </figcaption>
-            </figure>
-            <a href="images/portfolio6.jpg"><i class="fa fa-search"></i></a>
-          </div>
-
-          <div class="col-md-4 single-portfolio col-sm-6">
-            <figure class="portfolio-item">
-              <img class="img-responsive" src="images/portfolio7.jpg" alt="">
-              <figcaption class="portfolio-details">
-                <h4>Title goes here</h4>
-                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
-                et dolorerserss eerhfre mag.</p>
-              </figcaption>
-            </figure>
-            <a href="images/portfolio7.jpg"><i class="fa fa-search"></i></a>
-          </div>
-
-          <div class="col-md-4 single-portfolio col-sm-6">
-            <figure class="portfolio-item">
-              <img class="img-responsive" src="images/portfolio8.jpg" alt="">
-              <figcaption class="portfolio-details">
-                <h4>Title goes here</h4>
-                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
-                et dolorerserss eerhfre mag.</p>
-              </figcaption>
-            </figure>
-            <a href="images/portfolio8.jpg"><i class="fa fa-search"></i></a>
-          </div>
-        </div>
-      </section>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 <!-- end of portfolio section -->
+
 <!--fin de contenu -->
 
 
@@ -223,23 +169,7 @@
 
 
 
-
-
-
-    <!-- TODO: Here goes your content! -->
-
-
-
-    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-
-
-
-
-
-
-
   </body>
+
+
 </html>
