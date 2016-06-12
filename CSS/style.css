@@ -156,10 +156,15 @@ padding-right:15px;
 }
 
 .img_formulaire img{
+   margin-top:40px;
+   margin-left:15px;
   width:100px;
   border-radius:50%;
 
 
+}
+#formulaire{
+  margin-top:40px;
 }
 
 #bloc_commentaires{
