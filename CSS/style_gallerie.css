@@ -34,15 +34,16 @@
       /*override modal for demo only*/
       .modal-dialog {
           max-width:500px;
-          padding-top: 90px;
+          max-height:100px;
+          padding-top: 900px;
       }
       @media screen and (min-width: 768px){
           .modal-dialog {
               width:500px;
-              padding-top: 90px;
+              padding-top: 100px;
           }
       }
-      @media screen and (max-width:1500px){
+      @media screen and (max-width:500px){
           #ads {
               display:none;
           }
