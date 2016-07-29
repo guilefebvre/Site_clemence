@@ -8,6 +8,13 @@
 
 }
 
+.page-header small{
+  
+
+
+
+}
+
 .page-header{
 
   
@@ -22,6 +29,7 @@
 
   margin-bottom:0px;
 }
+
 
 .menu{font-size:20px;
 color:black;}
@@ -40,6 +48,9 @@ nav {
   border-radius: 8px;
  
 }
+
+  
+
 
 
 .container{/*border: 1px solid black;*/
@@ -186,7 +197,6 @@ font-weight:700;}
 
 #formulaire{
   padding-top:3vh;
-  width:60vh;
   text-align:center;
 }
 .img_formulaire{
