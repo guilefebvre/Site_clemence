@@ -2,9 +2,14 @@
 
 .page-header h1{
   font-size:40px;
-  color:#DE3163;
-  padding-top:40px;
+  color:White;
+  background-color:#DE3163;
   padding-left: 10px;
+  margin-top:0px;
+  position:fixed;
+  width:100%;
+  z-index:1;
+  text-align:center;
 
 }
 
@@ -19,7 +24,7 @@ color:black;
 
 
 
-  height:130px;
+  height:40px;
 
   background-size: 100%;
  font-family: 'Annie Use Your Telescope', cursive;
@@ -97,6 +102,7 @@ font-color:black;}
 
 
 #menu_fixe_droite{
+
 
 border-left: 1px solid black;
   width:310px;
@@ -193,7 +199,7 @@ margin-top:50px;
 
 
 .titre-contenu{
-  font-family:Arial,sans-serif;
+
    font-weight: 300;
    color:black;
    border-radius:5px;
@@ -209,7 +215,12 @@ margin-top:50px;
 
 }
 
+.youtubeVideoLoader{
+         width:70%;
+         padding-left:30px;
 
+
+}
 
 
 
