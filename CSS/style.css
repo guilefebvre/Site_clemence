@@ -51,8 +51,8 @@ margin-top:60px;
 .nav-pills a{ color: black; } /* unvisited links */
 
 .nav-pills a:hover { font-weight: bold;
-                    color: black; /* user hovers */
-                    background-color:#DE3163;
+                    color: white;
+                    background-color:#DE3163!important;
                   height:45px;}
 
  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
