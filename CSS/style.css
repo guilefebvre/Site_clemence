@@ -75,23 +75,18 @@ margin-top:60px;
   padding-left:20%;
         font-size:25px;
         word-spacing: 5px;
-
-
-        ;
-
-
 }
 
 
 
 #reseaux_sociaux_haut i{
-
-
         color:black;
         font-size:30px;
-
-
 }
+
+#reseaux_sociaux_haut i:hover {
+                    color: white; /* user hovers */
+                  }
 
 
 .container{/*border: 1px solid black;*/
@@ -254,8 +249,11 @@ font-weight:700;}
               color:#DE3163;}
 #menu_dates a:hover { font-weight: bold;color: #DE3163;font} /* user hovers */
 
-#menu_facebook{
+#menu_facebook {
+
+
 }
+
 
 
 #formulaire{
